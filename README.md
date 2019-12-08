@@ -15,3 +15,23 @@ Motivation: Sentiment Analysis, also called Opinion Mining, is a useful tool wit
 Brief Description of the Steps: We use the python to design machine learning algorithms. And we can use API for twitter, then we can use “Classification” to get a distribution data analysis. For some option, people’s emotion might up to their stock, then we might use stock Twits to get the financial data as well.
 
 Work Cite: Inzaugarat, Euge . "Learning how to perform Twitter Sentiment Analysis - Towards Data Science." Towards Data Science. Towards Data Science, 31 Jan 2019. Web. 6 Nov 2019. <http://towardsdatascience.com/keras-challenges-the-avengers-541346acb804>.
+
+
+
+Installation:
+
+    Tweepy: tweepy is the python client for the official Twitter API.
+    Install it using following pip command:
+
+    pip install tweepy
+
+    TextBlob: textblob is the python library for processing textual data.
+    Install it using following pip command:
+
+    pip install textblob
+
+    Also, we need to install some NLTK corpora using following command:
+
+    python -m textblob.download_corpora
+
+    (Corpora is nothing but a large and structured set of texts.)
