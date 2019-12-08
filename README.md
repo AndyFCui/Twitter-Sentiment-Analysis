@@ -35,3 +35,6 @@ Installation:
     python -m textblob.download_corpora
 
     (Corpora is nothing but a large and structured set of texts.)
+    
+    
+  
